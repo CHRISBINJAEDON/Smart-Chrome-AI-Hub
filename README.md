@@ -67,3 +67,106 @@ You can also preview them below:
 
 [![Demo Video 1](https://img.youtube.com/vi/iR4TMMGe26w/0.jpg)](https://youtu.be/iR4TMMGe26w)
 [![Demo Video 2](https://img.youtube.com/vi/R1WqKWF4X84/0.jpg)](https://youtu.be/R1WqKWF4X84)
+Smart-Chrome-AI-Hub/
+├── manifest.json
+├── background.js
+├── popup.html
+├── popup.js
+├── styles.css
+├── assets/
+│   └── icon.png
+├── README.md
+{
+  "manifest_version": 3,
+  "name": "Smart Chrome AI Hub",
+  "description": "Client-side AI tools powered by Gemini Nano",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Chrome AI Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Smart Chrome AI Hub</h1>
+  <textarea id="inputText" placeholder="Enter text to summarize or proofread..."></textarea>
+  <button id="summarizeBtn">Summarize</button>
+  <button id="proofreadBtn">Proofread</button>
+  <div id="output"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
+document.getElementById("summarizeBtn").addEventListener("click", async () => {
+  const input = document.getElementById("inputText").value;
+  const summary = await summarizeText(input);
+  document.getElementById("output").innerText = summary;
+});
+
+document.getElementById("proofreadBtn").addEventListener("click", async () => {
+  const input = document.getElementById("inputText").value;
+  const corrected = await proofreadText(input);
+  document.getElementById("output").innerText = corrected;
+});
+
+async function summarizeText(text) {
+  // Simulated Gemini Nano Summarizer API call
+  return `Summary: ${text.slice(0, 50)}...`;
+}
+
+async function proofreadText(text) {
+  // Simulated Proofreader API call
+  return `Corrected: ${text.replace("teh", "the")}`;
+}
+chrome.runtime.onInstalled.addListener(() => {
+  console.log("Smart Chrome AI Hub installed.");
+});
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+#output {
+  margin-top: 10px;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+#output {
+  margin-top: 10px;
+  font-weight: bold;
+}
