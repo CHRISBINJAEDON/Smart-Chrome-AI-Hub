@@ -99,6 +99,7 @@ We were inspired by the growing need for accessible, privacy-first AI tools—es
 ### Installation
 
 ```bash
+https://github.com/CHRISBINJAEDON/Smart-Chrome-AI-Hub.git
 git clone https://github.com/your-username/smart-chrome-ai-hub.git
 cd smart-chrome-ai-hub
 npm install
