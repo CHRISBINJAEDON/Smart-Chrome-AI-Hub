@@ -86,6 +86,13 @@ We were inspired by the growing need for accessible, privacy-first AI tools—es
 - 🤝 Launch collaborative extension builder
 - 🌐 Integrate hybrid AI strategies for global reach
 
+- ## Presentation
+
+Presentation :https://youtu.be/R1WqKWF4X84
+Try It out : https://youtu.be/iR4TMMGe26w
+https://github.com/CHRISBINJAEDON/Smart-Chrome-AI-Hub.git
+https://devpost.com/software/smart-chrome-ai-hub-client-side-web-innovation
+
 ---
 
 ## 🚀 Getting Started
