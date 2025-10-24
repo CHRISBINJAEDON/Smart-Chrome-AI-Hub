@@ -1,4 +1,5 @@
-# Smart-Chrome-AI-Hub
+# Smart-Chrome-AI-Hub– Client-Side Web Innovation
+
 Smart Chrome AI Hub empowers students to build AI-powered apps and Chrome Extensions that work offline, protect privacy, and reduce environmental impact. Using Gemini Nano and client-side AI, it enables ethical, inclusive innovation—aligning with UN SDGs for education, equality, and sustainability.
 # 🌐 Smart Chrome AI Hub
 
@@ -26,7 +27,7 @@ We were inspired by the growing need for accessible, privacy-first AI tools—es
 
 ---
 
-## ⚙️ Key Features
+## ⚙️ Key Features and SDG Allignment
 
 - ✅ **Client-side AI** using Gemini Nano (no servers required)
 - 🧠 **Multimodal input support**: text, image, audio
@@ -34,6 +35,18 @@ We were inspired by the growing need for accessible, privacy-first AI tools—es
 - 🖥️ **Cross-platform compatibility** (mobile + desktop)
 - 🌐 **Chrome API integration** for translation, rewriting, summarization
 - 🔐 **Privacy-first architecture** with no data sent to cloud
+## ⚙️ Key Features & SDG Alignment
+
+Smart Chrome AI Hub integrates six core features that empower students while advancing global sustainability and inclusion goals:
+
+| 🔧 Feature             | 🌐 Description                                      | 🎯 SDG Alignment                                      |
+|------------------------|----------------------------------------------------|-------------------------------------------------------|
+| Multimodal Inputs      | Supports text, image, and audio for accessibility | SDG 4 (Quality Education), SDG 10 (Reduced Inequalities) |
+| Client-Side AI         | Local processing ensures privacy and user control | SDG 16 (Peace, Justice & Strong Institutions)         |
+| Offline Access         | Enables use without internet connectivity         | SDG 9 (Industry, Innovation & Infrastructure)         |
+| No Server Costs        | Free experimentation for students and educators   | SDG 4, SDG 8 (Decent Work & Economic Growth)          |
+| Multilingual Support   | Promotes global collaboration and inclusion       | SDG 10, SDG 17 (Partnerships for the Goals)           |
+| Low Carbon Footprint   | Encourages sustainable, energy-efficient design   | SDG 12 (Responsible Consumption), SDG 13 (Climate Action) |
 
 ---
 
